@@ -12,33 +12,4 @@
 > Example 5.7, news features to development
 
 ## Download
-First, clone project:
-``` bash
-# clone
-git clone https://github.com/carlosfgti/crud-laravel-5.7.git
-
-# Access project
-cd crud-laravel-5.7
-```
-
-## Config
-
-``` bash
-# Install dependencies
-composer install
-
-# Create file .env
-cp .env.example .env
-
-# Generate key
-php artisan key:generate
-
-# Run migrations (tables and Seeders)
-php artisan migrate --seed
-
-# Create Server
-php artisan serve
-
-# Access project
-http://localhost:8080
-```
+This is made just for heroku deployment
